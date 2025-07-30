@@ -11,10 +11,22 @@ A simple Streamlit interface to test the open-source Text-to-Speech library [Kok
 
 ## How to Run
 
+Make sure you have **Python 3.13+** and `uv` installed.
+`uv` is a fast and modern Python package manager that handles virtual environments and dependencies using `pyproject.toml`.
+
+## Installation Steps
+
 ```bash
+# Clone the repository
+git clone https://github.com/your-username/kokoro-streamlit.git
+cd kokoro-streamlit
+
+# Create a virtual environment and install dependencies from pyproject.toml
 uv venv
 uv pip install --upgrade pip
 uv sync
+
+# Run the Streamlit app
 streamlit run app.py
 ```
 
