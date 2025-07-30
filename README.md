@@ -1,15 +1,15 @@
 # 🎙️ Kokoro Streamlit
 
-Interface simples em Streamlit para testar a biblioteca open-source de Text-to-Speech [Kokoro](https://github.com/hexgrad/kokoro).
+A simple Streamlit interface to test the open-source Text-to-Speech library [Kokoro](https://github.com/hexgrad/kokoro).
 
-## Funcionalidades
+## Features
 
-- Suporte a múltiplos idiomas e vozes
-- Interface intuitiva para input de texto
-- Geração de áudio local via TTS
-- Stream e download do áudio gerado
+- Support for multiple languages and voices  
+- Intuitive text input interface  
+- Local TTS audio generation  
+- Audio streaming and download  
 
-## Como rodar
+## How to Run
 
 ```bash
 uv venv
@@ -20,13 +20,12 @@ streamlit run app.py
 
 ---
 
-## 🔜 MELHORIAS FUTURAS (podemos trabalhar juntos):
+## 🔜 FUTURE IMPROVEMENTS (we can work on these together):
 
-- [ ] ✅ Botão para **baixar o áudio** gerado (`st.download_button`)
-- [ ] 🕓 Exibir **duração estimada** do áudio
-- [ ] 🌗 Adicionar **modo escuro**
-- [ ] 📂 Armazenar histórico de textos + vozes
-- [ ] 🌐 Tradutor automático via DeepL ou Google Translate
-- [ ] 🧪 Testes automatizados com `pytest`
+- [x] ✅ Button to download generated audio (`st.download_button`)
+- [x] 🕓 Display **estimated** audio duration
+- [x] 📂 Store history of texts + voices
+- [x] 🌐 Automatic translation deep-translator
+- [ ] 🧪 Automated tests with `pytest`
 
 ---
