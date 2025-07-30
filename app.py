@@ -70,7 +70,7 @@ with col2:
 
     translate = st.checkbox("🌐 Auto-Translate to all languages!", False) 
 
-    generate = st.button("🔊 Gerar Áudio")
+    generate = st.button("🔊 Generate Audio")
 
 # --- AUDIO GENERATION ---
 if generate and text:
